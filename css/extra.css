@@ -1,0 +1,21 @@
+.hero.homecourse {
+    padding: 180px 0px 80px 0px;
+}
+
+.hero.homeclass {
+    padding: 140px 0px 0px 0px;
+}
+
+.hero .hi {
+    position: relative;
+    left: 0px !important;
+}
+
+@media (max-width:991px) {
+    .hero .hi {
+        left: -60px;
+    }
+    .hero .hi img {
+        width: 550px !important;
+    }
+}
